@@ -1,6 +1,9 @@
 @mixin tabs {
   .tabs {
     display: flex;
+    width: 100%;
+    background-color: rgb(206, 218, 218);
+    justify-content: center;
 
     .tab {
       height: 5rem;
@@ -13,5 +16,9 @@
       align-items: center;
       justify-content: center;
     }
+  }
+  .tab:hover {
+    background-color: rgb(109, 157, 212);
+    cursor: pointer;
   }
 }
