@@ -1,1 +1,9 @@
-/* Add application styles & imports to this file! */
+@import './components';
+
+@include tabs;
+
+body {
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serifx;
+}

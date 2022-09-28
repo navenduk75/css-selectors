@@ -1,0 +1,17 @@
+@mixin tabs {
+  .tabs {
+    display: flex;
+
+    .tab {
+      height: 5rem;
+      width: 5rem;
+      margin: 2px;
+      padding: 5px;
+      background-color: red;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
